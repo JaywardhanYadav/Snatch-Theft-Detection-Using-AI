@@ -1,0 +1,30 @@
+# system config
+
+pipeline:
+  videos_dir: "data/raw"
+  output_dir: "output"
+  log_level: "INFO"
+
+detection:
+  model_weights: "yolov8n.pt"
+  conf_threshold: 0.3
+  classes: [0] # Person class
+
+tracking:
+  persist: True
+
+motion:
+  pyr_scale: 0.5
+  levels: 3
+  winsize: 15
+  iterations: 3
+  poly_n: 5
+  poly_sigma: 1.2
+  intensity_threshold: 3.0
+
+classifier:
+  model_path: "models/snatch_rf.pkl"
+  proximity_threshold: 150 # Feature engineering threshold
+
+reporting:
+  max_snapshots: 5

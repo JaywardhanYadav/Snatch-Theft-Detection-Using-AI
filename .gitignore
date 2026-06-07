@@ -1,0 +1,35 @@
+# Python caches and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.python-version
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Packaging
+pip-wheel-metadata/
+*.egg-info/
+*.egg
+
+# Distribution / build
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Output and logs
+output/
+*.log
