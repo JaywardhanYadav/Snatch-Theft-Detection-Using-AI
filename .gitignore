@@ -34,4 +34,7 @@ Thumbs.db
 output/
 *.log
 yolov8n.pt
+*.pt
+*.pkl
+*.mp4
 
