@@ -33,3 +33,5 @@ Thumbs.db
 # Output and logs
 output/
 *.log
+yolov8n.pt
+
